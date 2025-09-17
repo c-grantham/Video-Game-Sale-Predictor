@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:16
+    container_name: gamepriceiq-db
+    restart: always
+    environment:
+      POSTGRES_DB: gamepriceiq
+      POSTGRES_USER: gp_user
+      POSTGRES_PASSWORD: gp_pass
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  pgdata:
