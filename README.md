@@ -10,7 +10,7 @@ The pipeline currently includes:
 
 * Cleaning and preprocessing data with Python (pandas, NumPy)
 
-Features to be implemented include:
+Features to be uploaded to GitHub include:
 
 * Training a machine learning model (XGBoost Regression) to forecast future discounts
 
