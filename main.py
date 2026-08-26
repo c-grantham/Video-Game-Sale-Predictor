@@ -4,7 +4,7 @@ from searchgames import get_titles
 from pricehistory import get_price_history
 from dataloader import load_data
 
-API_KEY = '2fbb4cb3aae1caa30275508a159b768f0631a9ab'
+API_KEY = ''
 headers = {"User-Agent": "GamePriceIQ/1.0"}
 
 title = input()
